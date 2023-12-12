@@ -91,7 +91,7 @@ const HeaderBottom = () => {
               <div
                 className={`w-full mx-auto h-96 bg-white top-16 absolute left-0 z-50 overflow-y-scroll shadow-2xl scrollbar-hide cursor-pointer`}
               >
-                {searchQuery &&
+                {searchQuery && showSearchBar &&
                   filteredProducts.map((item) => (
                     <div
                       onClick={() =>
